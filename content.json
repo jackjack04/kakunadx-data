@@ -1,0 +1,70 @@
+{
+  "news": [
+    {
+      "id": "new_set_2025",
+      "title": "Nuovo Set: Scarlet & Violet Temporal Forces",
+      "subtitle": "150 nuove carte in arrivo a marzo 2025",
+      "content": "Il nuovo set Temporal Forces introduce meccaniche innovative e Pokémon della regione di Paldea. Include carte EX, VMAX e le nuove carte Tera.",
+      "imageUrl": "temporal_forces_banner",
+      "publishDate": "2025-01-25",
+      "category": "set_release",
+      "isHighlighted": true
+    },
+    {
+      "id": "worlds_2025",
+      "title": "Pokémon World Championships 2025",
+      "subtitle": "Annunciata la location del torneo mondiale",
+      "content": "Il Campionato Mondiale Pokémon 2025 si terrà a Tokyo, Giappone dal 15 al 18 agosto. Registrazioni aperte da febbraio.",
+      "imageUrl": null,
+      "publishDate": "2025-01-24",
+      "category": "news",
+      "isHighlighted": true
+    },
+    {
+      "id": "app_update",
+      "title": "KakunaDex v1.1 Disponibile",
+      "subtitle": "Nuove funzionalità e miglioramenti OCR",
+      "content": "Aggiornamento con riconoscimento migliorato, nuove carte nel database e interfaccia ottimizzata.",
+      "imageUrl": null,
+      "publishDate": "2025-01-23",
+      "category": "news",
+      "isHighlighted": false
+    }
+  ],
+  "promoCards": [
+    {
+      "id": "pikachu_pokemon_day_2025",
+      "name": "Pikachu Pokémon Day 2025",
+      "code": "PROMO-025",
+      "series": "Special Promotional Cards",
+      "releaseDate": "2025-02-27",
+      "rarity": "Promo Holo",
+      "imageUrl": "pikachu_pokemon_day_2025",
+      "description": "Carta promozionale esclusiva per il Pokémon Day 2025. Disponibile solo nei Pokémon Center.",
+      "availability": "store"
+    },
+    {
+      "id": "charizard_championship_2025",
+      "name": "Charizard Championship Series",
+      "code": "CS-006",
+      "series": "Championship Series 2025",
+      "releaseDate": "2025-08-18",
+      "rarity": "Tournament Promo",
+      "imageUrl": "charizard_championship_2025",
+      "description": "Carta premio per i partecipanti al World Championships 2025. Design esclusivo con foil speciale.",
+      "availability": "tournament"
+    },
+    {
+      "id": "victini_svp_288",
+      "name": "Victini",
+      "code": "288/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-31",
+      "rarity": "Promo BWR Style",
+      "imageUrl": "victini-svp-288",
+      "description": "Carta promozionale dal Victini BWR Tournament 2025 con design rosso unico.",
+      "availability": "tournament"
+    }
+  ],
+  "lastUpdated": "2025-01-25 15:30:00"
+}
