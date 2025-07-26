@@ -41,6 +41,46 @@
       "isHighlighted": false
     },
     {
+      "id": "auto_set_release_1753495008_0",
+      "title": "📦 Informazioni sul prodotto",
+      "subtitle": "Informazioni sul prodotto",
+      "content": "Informazioni sul prodotto",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "set_release",
+      "isHighlighted": true
+    },
+    {
+      "id": "auto_tournament_1753495011_0",
+      "title": "🏆 Come giocare e le regole del torneo",
+      "subtitle": "Come giocare e le regole del torneo",
+      "content": "Come giocare e le regole del torneo",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": true
+    },
+    {
+      "id": "auto_tournament_1753495012_1",
+      "title": "🏆 evento",
+      "subtitle": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una b...",
+      "content": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una battaglia seria, fai clic qui Event Top Event Search Players Event Club I principianti possono goderne questo!Se vuoi goderti una partita seria, prova questa sfida!",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": false
+    },
+    {
+      "id": "auto_tournament_1753495013_2",
+      "title": "🏆 Top evento",
+      "subtitle": "Top evento",
+      "content": "Top evento",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": false
+    },
+    {
       "id": "pokemon_tcg_pocket_update_2025",
       "title": "🎮 Pokémon TCG Pocket: Nuove Carte in Arrivo!",
       "subtitle": "Expansion Pack Mythical Island disponibile ora",
@@ -137,5 +177,5 @@
       "availability": "store"
     }
   ],
-  "lastUpdated": "2025-07-26 01:54:47 - 🤖 Auto JP: 4 news, 0 promo"
+  "lastUpdated": "2025-07-26 01:56:56 - 🤖 Auto JP: 8 news, 0 promo"
 }
