@@ -143,6 +143,17 @@
   ],
   "promoCards": [
     {
+      "id": "hiroshima-pikachu-svp-261-2025",
+      "name": "Hiroshima's Pikachu",
+      "code": "261/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-09-01",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "hiroshimaPikachu",
+      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
+      "availability": "store"
+    },
+    {
       "id": "victini-svp-288-2025",
       "name": "Victini",
       "code": "288/SV-P",
@@ -165,17 +176,6 @@
       "availability": "store"
     },
     {
-      "id": "hiroshima-pikachu-svp-261-2025",
-      "name": "Hiroshima's Pikachu",
-      "code": "261/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-09-01",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "hiroshimaPikachu",
-      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
-      "availability": "store"
-    },
-    {
       "id": "fukuoka-pikachu-svp-289-2025",
       "name": "Fukuoka's Pikachu",
       "code": "289/SV-P",
@@ -187,5 +187,5 @@
       "availability": "store"
     }
   ],
-  "lastUpdated": "2025-07-26 15:30:00 - 🎌 Regional Pikachu Collection"
+  "lastUpdated": "2025-07-26 06:42:36 - 🤖 Selenium: 0 news, 0 promo"
 }
