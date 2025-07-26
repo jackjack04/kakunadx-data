@@ -165,14 +165,14 @@
       "availability": "store"
     },
     {
-      "id": "pikachu_pokemon_day_2025_gold",
-      "name": "Pikachu Pokémon Day 2025",
-      "code": "PROMO-025G",
-      "series": "Anniversary Collection 2025",
-      "releaseDate": "2025-02-27",
-      "rarity": "Anniversary Gold Promo",
-      "imageUrl": "pikachu-pokemon-day-2025-gold",
-      "description": "Carta promozionale esclusiva per il 29° anniversario di Pokémon. Design celebrativo con foil dorato speciale e artwork commemorativo. Disponibile solo il Pokémon Day nei Pokémon Center certificati.",
+       "id": "tohoku-pikachu-svp-260-2025",
+      "name": "Tohoku's Pikachu",
+      "code": "260/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-15",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "tohokuPikachu",
+      "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
       "availability": "store"
     },
     {
