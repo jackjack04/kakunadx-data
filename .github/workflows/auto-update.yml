@@ -1,20 +1,53 @@
-name: 🤖 KakunaDex Auto Update
+name: 🤖 KakunaDex Selenium Auto Update
+
 on:
+  # Esegui ogni 12 ore
+  schedule:
+    - cron: '0 */12 * * *'
+  
+  # Permetti esecuzione manuale
   workflow_dispatch:
+  
+  # Test su push
   push:
     branches: [ main ]
+
 jobs:
-  update-content:
+  selenium-scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    - run: pip install requests beautifulsoup4 googletrans==4.0.0rc1 PyGithub
-    - run: python pokemon_scraper.py
+        
+    - name: 🌐 Setup Chrome
+      uses: browser-actions/setup-chrome@latest
+      with:
+        chrome-version: stable
+        
+    - name: 📦 Install Dependencies
+      run: |
+        pip install selenium googletrans==4.0.0rc1 PyGithub
+        # Installa ChromeDriver
+        wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+        sudo unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+        
+    - name: 🕷️ Run Selenium Pokemon Scraper
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ github.repository }}
+      run: |
+        python pokemon_scraper_selenium.py
+        
+    - name: 📊 Show Results
+      run: |
+        echo "✅ Selenium automation completed!"
+        git log --oneline -3
