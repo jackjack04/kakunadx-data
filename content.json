@@ -143,7 +143,18 @@
   ],
   "promoCards": [
     {
-      "id": "hiroshima-pikachu-svp-261-2025",
+"id": "tohoku-pikachu-svp-260-2025",
+      "name": "Tohoku's Pikachu",
+      "code": "260/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-15",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "tohokuPikachu",
+      "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
+      "availability": "store" 
+    },
+    {
+"id": "hiroshima-pikachu-svp-261-2025",
       "name": "Hiroshima's Pikachu",
       "code": "261/SV-P",
       "series": "SV-P Promotional Cards",
@@ -151,7 +162,7 @@
       "rarity": "Mirror Holofoil Promo",
       "imageUrl": "hiroshimaPikachu",
       "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
-      "availability": "store"
+      "availability": "store"  
     },
     {
       "id": "victini-svp-288-2025",
@@ -163,17 +174,6 @@
       "imageUrl": "victiniSVP288",
       "description": "La leggendaria carta Victini dal BWR Tournament. Design rosso iconico con holofoil speciale che continua a conquistare collezionisti. Oltre 17,000 copie distribuite attraverso tornei e lotterie speciali!",
       "availability": "tournament"
-    },
-    {
-      "id": "tohoku-pikachu-svp-260-2025",
-      "name": "Tohoku's Pikachu",
-      "code": "260/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-15",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "tohokuPikachu",
-      "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
-      "availability": "store"
     },
     {
       "id": "fukuoka-pikachu-svp-289-2025",
