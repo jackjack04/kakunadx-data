@@ -142,15 +142,26 @@
     }
   ],
   "promoCards": [
-    {
-      "id": "hiroshima-pikachu-svp-261-2025",
-      "name": "Hiroshima's Pikachu",
-      "code": "261/SV-P",
+  {
+      "id": "roxanne-svp-290-2025",
+      "name": "Roxanne",
+      "code": "290/SV-P",
       "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-09-01",
+      "releaseDate": "2025-07-01",
+      "rarity": "Extra Battle Day Promo",
+      "imageUrl": "roxanneSVP290",
+      "description": "Supporter card con design retro Sword & Shield! Premio di partecipazione agli Extra Battle Day dal luglio 2025. Sostituisce Irida con artwork alternativo vintage. Include pack bonus con 12 carte rare aggiuntive.",
+      "availability": "tournament"
+    },
+    {
+     "id": "fukuoka-pikachu-svp-289-2025",
+      "name": "Fukuoka's Pikachu",
+      "code": "289/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-15",
       "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "hiroshimaPikachu",
-      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
+      "imageUrl": "fukuokaPikachu",
+      "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
       "availability": "store"
     },
     {
@@ -165,6 +176,17 @@
       "availability": "tournament"
     },
     {
+      "id": "hiroshima-pikachu-svp-261-2025",
+      "name": "Hiroshima's Pikachu",
+      "code": "261/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-09-01",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "hiroshimaPikachu",
+      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
+      "availability": "store"
+    },
+    {
       "id": "tohoku-pikachu-svp-260-2025",
       "name": "Tohoku's Pikachu",
       "code": "260/SV-P",
@@ -174,29 +196,7 @@
       "imageUrl": "tohokuPikachu",
       "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
       "availability": "store"
-    },
-    {
-      "id": "fukuoka-pikachu-svp-289-2025",
-      "name": "Fukuoka's Pikachu",
-      "code": "289/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-15",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "fukuokaPikachu",
-      "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
-      "availability": "store"
-    },
-    {
-      "id": "roxanne-svp-290-2025",
-      "name": "Roxanne",
-      "code": "290/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-07-01",
-      "rarity": "Extra Battle Day Promo",
-      "imageUrl": "roxanneSVP290",
-      "description": "Supporter card con design retro Sword & Shield! Premio di partecipazione agli Extra Battle Day dal luglio 2025. Sostituisce Irida con artwork alternativo vintage. Include pack bonus con 12 carte rare aggiuntive.",
-      "availability": "tournament"
     }
   ],
-  "lastUpdated": "2025-07-26 07:45:32 - 🤖 Selenium: 0 news, 0 promo"
+  "lastUpdated": "2025-07-26 10:12:32 - 🤖 Selenium: 0 news, 0 promo"
 }
