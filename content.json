@@ -1,70 +1,101 @@
 {
   "news": [
     {
-      "id": "new_set_2025",
-      "title": "Nuovo Set: Scarlet & Violet Temporal Forces",
-      "subtitle": "150 nuove carte in arrivo a marzo 2025",
-      "content": "Il nuovo set Temporal Forces introduce meccaniche innovative e Pokémon della regione di Paldea. Include carte EX, VMAX e le nuove carte Tera.",
-      "imageUrl": "temporal_forces_banner",
+      "id": "pokemon_tcg_pocket_update_2025",
+      "title": "🎮 Pokémon TCG Pocket: Nuove Carte in Arrivo!",
+      "subtitle": "Expansion Pack Mythical Island disponibile ora",
+      "content": "Il popolare gioco mobile Pokémon TCG Pocket si arricchisce con nuove carte leggendarie! L'espansione Mythical Island porta Mew, Celebi e altri Pokémon mitici direttamente sul tuo smartphone. Nuove meccaniche di gioco e carte EX esclusive ti aspettano!",
+      "imageUrl": null,
+      "publishDate": "2025-01-25",
+      "category": "news",
+      "isHighlighted": true
+    },
+    {
+      "id": "scarlet_violet_temporal_forces_2025",
+      "title": "📦 Scarlet & Violet: Temporal Forces - Nuovi Dettagli",
+      "subtitle": "Set completo con oltre 150 carte inedite",
+      "content": "The Pokémon Company svela nuovi dettagli sul prossimo set Temporal Forces. Include Pokémon Teracristal unici, nuove carte Supporter e meccaniche innovative. Il set sarà disponibile nei Pokémon Center a partire da marzo 2025.",
+      "imageUrl": null,
       "publishDate": "2025-01-25",
       "category": "set_release",
       "isHighlighted": true
     },
     {
-      "id": "worlds_2025",
-      "title": "Pokémon World Championships 2025",
-      "subtitle": "Annunciata la location del torneo mondiale",
-      "content": "Il Campionato Mondiale Pokémon 2025 si terrà a Tokyo, Giappone dal 15 al 18 agosto. Registrazioni aperte da febbraio.",
+      "id": "worlds_championship_2025_tokyo",
+      "title": "🏆 World Championships 2025 a Tokyo!",
+      "subtitle": "Il più grande torneo Pokémon dell'anno",
+      "content": "Annunciata ufficialmente la location del Campionato Mondiale Pokémon 2025! Si terrà a Tokyo dal 15 al 18 agosto 2025. Registrazioni aperte dal 1° febbraio. Quest'anno introduce nuove categorie di gioco e premi esclusivi per i partecipanti.",
       "imageUrl": null,
       "publishDate": "2025-01-24",
-      "category": "news",
-      "isHighlighted": true
+      "category": "tournament",
+      "isHighlighted": false
     },
     {
-      "id": "app_update",
-      "title": "KakunaDex v1.1 Disponibile",
-      "subtitle": "Nuove funzionalità e miglioramenti OCR",
-      "content": "Aggiornamento con riconoscimento migliorato, nuove carte nel database e interfaccia ottimizzata.",
+      "id": "pikachu_pokemon_day_promo_2025",
+      "title": "🎁 Carta Promo Pikachu per il Pokémon Day 2025",
+      "subtitle": "Distribuzione speciale il 27 febbraio",
+      "content": "Per celebrare il 29° anniversario di Pokémon, una carta Pikachu promozionale speciale sarà distribuita il 27 febbraio in tutti i Pokémon Center. Design esclusivo con artwork celebrativo e foil holografico dorato. Quantità limitata!",
+      "imageUrl": null,
+      "publishDate": "2025-01-24",
+      "category": "promo",
+      "isHighlighted": false
+    },
+    {
+      "id": "battle_academy_restock_2025",
+      "title": "📚 Battle Academy: Nuove Scorte Disponibili",
+      "subtitle": "Il set perfetto per iniziare a giocare",
+      "content": "Dopo mesi di sold-out, il Pokémon Trading Card Game Battle Academy torna disponibile! Include 3 mazzi pre-costruiti, guide strategiche e tutto il necessario per imparare a giocare. Perfetto per trainer principianti e collezionisti.",
       "imageUrl": null,
       "publishDate": "2025-01-23",
-      "category": "news",
+      "category": "set_release",
       "isHighlighted": false
     }
   ],
   "promoCards": [
     {
-      "id": "victini_svp_288",
-      "name": "Victini",
+      "id": "pikachu_pokemon_day_2025_promo",
+      "name": "Pikachu Pokémon Day 2025",
+      "code": "PROMO-025",
+      "series": "Special Promotional Cards",
+      "releaseDate": "2025-02-27",
+      "rarity": "Anniversary Promo",
+      "imageUrl": "pikachu-pokemon-day-2025",
+      "description": "Carta promozionale esclusiva per il 29° anniversario di Pokémon. Design celebrativo con foil dorato speciale, disponibile solo il Pokémon Day nei Pokémon Center di tutto il mondo.",
+      "availability": "store"
+    },
+    {
+      "id": "charizard_worlds_2025_participation",
+      "name": "Charizard World Championship 2025",
+      "code": "WC25-006",
+      "series": "World Championship 2025",
+      "releaseDate": "2025-08-15",
+      "rarity": "Tournament Promo",
+      "imageUrl": "charizard-worlds-2025",
+      "description": "Carta premio esclusiva per tutti i partecipanti al World Championship 2025 di Tokyo. Foil speciale con artwork inedito di Charizard in versione giapponese tradizionale.",
+      "availability": "tournament"
+    },
+    {
+      "id": "mew_tcg_pocket_crossover",
+      "name": "Mew TCG Pocket Crossover",
+      "code": "POCKET-151",
+      "series": "Digital Crossover Cards",
+      "releaseDate": "2025-03-01",
+      "rarity": "Digital Promo",
+      "imageUrl": "mew-tcg-pocket",
+      "description": "Prima carta crossover tra TCG fisico e Pokémon TCG Pocket! Ottieni questa carta speciale collegando il tuo account Pocket con Pokémon GO. Design unico con effetti holografici arcobaleno.",
+      "availability": "online"
+    },
+    {
+      "id": "victini_svp_288_2025",
+      "name": "Victini SV-P 288",
       "code": "288/SV-P",
       "series": "SV-P Promotional Cards",
       "releaseDate": "2025-08-31",
       "rarity": "Promo BWR Style",
       "imageUrl": "victini-svp-288",
-      "description": "Carta promozionale dal Victini BWR Tournament 2025 con design rosso unico.",
+      "description": "Carta promozionale dal Victini BWR Tournament 2025. Design rosso iconico con holofoil speciale che ha conquistato i collezionisti di tutto il mondo.",
       "availability": "tournament"
-    },
-    {
-      "id": "charizard_championship_2025",
-      "name": "Charizard Championship Series",
-      "code": "CS-006",
-      "series": "Championship Series 2025",
-      "releaseDate": "2025-08-18",
-      "rarity": "Tournament Promo",
-      "imageUrl": "charizard_championship_2025",
-      "description": "Carta premio per i partecipanti al World Championships 2025. Design esclusivo con foil speciale.",
-      "availability": "tournament"
-    },
-    {
-      "id": "pikachu_pokemon_day_2025",
-      "name": "Pikachu Pokémon Day 2025",
-      "code": "PROMO-025",
-      "series": "Special Promotional Cards",
-      "releaseDate": "2025-02-27",
-      "rarity": "Promo Holo",
-      "imageUrl": "pikachu_pokemon_day_2025",
-      "description": "Carta promozionale esclusiva per il Pokémon Day 2025. Disponibile solo nei Pokémon Center.",
-      "availability": "store"
     }
   ],
-  "lastUpdated": "2025-07-26 01:18:14 - 🤖 Auto: 0 news, 0 promo (7 giorni)"
+  "lastUpdated": "2025-01-25 20:30:00 - News aggiornate manualmente 📰"
 }
