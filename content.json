@@ -1,6 +1,46 @@
 {
   "news": [
     {
+      "id": "auto_set_release_1753494877_0",
+      "title": "📦 Informazioni sul prodotto",
+      "subtitle": "Informazioni sul prodotto",
+      "content": "Informazioni sul prodotto",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "set_release",
+      "isHighlighted": true
+    },
+    {
+      "id": "auto_tournament_1753494881_0",
+      "title": "🏆 Come giocare e le regole del torneo",
+      "subtitle": "Come giocare e le regole del torneo",
+      "content": "Come giocare e le regole del torneo",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": true
+    },
+    {
+      "id": "auto_tournament_1753494883_1",
+      "title": "🏆 evento",
+      "subtitle": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una b...",
+      "content": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una battaglia seria, fai clic qui Event Top Event Search Players Event Club I principianti possono goderne questo!Se vuoi goderti una partita seria, prova questa sfida!",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": false
+    },
+    {
+      "id": "auto_tournament_1753494885_2",
+      "title": "🏆 Top evento",
+      "subtitle": "Top evento",
+      "content": "Top evento",
+      "imageUrl": null,
+      "publishDate": "2025-07-26",
+      "category": "tournament",
+      "isHighlighted": false
+    },
+    {
       "id": "pokemon_tcg_pocket_update_2025",
       "title": "🎮 Pokémon TCG Pocket: Nuove Carte in Arrivo!",
       "subtitle": "Expansion Pack Mythical Island disponibile ora",
@@ -53,15 +93,15 @@
   ],
   "promoCards": [
     {
-      "id": "pikachu_pokemon_day_2025_promo",
-      "name": "Pikachu Pokémon Day 2025",
-      "code": "PROMO-025",
-      "series": "Special Promotional Cards",
-      "releaseDate": "2025-02-27",
-      "rarity": "Anniversary Promo",
-      "imageUrl": "pikachu-pokemon-day-2025",
-      "description": "Carta promozionale esclusiva per il 29° anniversario di Pokémon. Design celebrativo con foil dorato speciale, disponibile solo il Pokémon Day nei Pokémon Center di tutto il mondo.",
-      "availability": "store"
+      "id": "victini_svp_288_2025",
+      "name": "Victini SV-P 288",
+      "code": "288/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-31",
+      "rarity": "Promo BWR Style",
+      "imageUrl": "victini-svp-288",
+      "description": "Carta promozionale dal Victini BWR Tournament 2025. Design rosso iconico con holofoil speciale che ha conquistato i collezionisti di tutto il mondo.",
+      "availability": "tournament"
     },
     {
       "id": "charizard_worlds_2025_participation",
@@ -86,16 +126,16 @@
       "availability": "online"
     },
     {
-      "id": "victini_svp_288_2025",
-      "name": "Victini SV-P 288",
-      "code": "288/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-31",
-      "rarity": "Promo BWR Style",
-      "imageUrl": "victini-svp-288",
-      "description": "Carta promozionale dal Victini BWR Tournament 2025. Design rosso iconico con holofoil speciale che ha conquistato i collezionisti di tutto il mondo.",
-      "availability": "tournament"
+      "id": "pikachu_pokemon_day_2025_promo",
+      "name": "Pikachu Pokémon Day 2025",
+      "code": "PROMO-025",
+      "series": "Special Promotional Cards",
+      "releaseDate": "2025-02-27",
+      "rarity": "Anniversary Promo",
+      "imageUrl": "pikachu-pokemon-day-2025",
+      "description": "Carta promozionale esclusiva per il 29° anniversario di Pokémon. Design celebrativo con foil dorato speciale, disponibile solo il Pokémon Day nei Pokémon Center di tutto il mondo.",
+      "availability": "store"
     }
   ],
-  "lastUpdated": "2025-01-25 20:30:00 - News aggiornate manualmente 📰"
+  "lastUpdated": "2025-07-26 01:54:47 - 🤖 Auto JP: 4 news, 0 promo"
 }
