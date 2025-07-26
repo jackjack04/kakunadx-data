@@ -32,48 +32,107 @@ class PokemonNewsScraper:
         try:
             news_items = []
             
-            # URL per le 3 categorie principali
+            # URL corretti per le 3 categorie principali
             categories = {
                 "🔴 MERCE": {
-                    "url": "https://www.pokemon-card.com/products/",
+                    "url": "https://www.pokemon-card.com/info/#products",
                     "category": "set_release",
-                    "color_class": "red"
+                    "section_id": "products"
                 },
                 "🔵 EVENTO": {
-                    "url": "https://www.pokemon-card.com/event/", 
+                    "url": "https://www.pokemon-card.com/info/#event", 
                     "category": "tournament",
-                    "color_class": "blue"
+                    "section_id": "event"
                 },
                 "🟢 CAMPAGNA": {
-                    "url": "https://www.pokemon-card.com/campaign/",
+                    "url": "https://www.pokemon-card.com/info/#campaign",
                     "category": "promo", 
-                    "color_class": "green"
+                    "section_id": "campaign"
                 }
             }
             
             # Data limite: 7 giorni fa
             seven_days_ago = datetime.now() - timedelta(days=7)
             
+            # Carica la pagina principale delle info
+            main_url = "https://www.pokemon-card.com/info/"
+            print(f"🔍 Loading main page: {main_url}")
+            
+            try:
+                response = self.session.get(main_url, timeout=30)
+                response.raise_for_status()
+                soup = BeautifulSoup(response.content, 'html.parser')
+                print(f"✅ Main page loaded successfully")
+            except Exception as e:
+                print(f"❌ Error loading main page: {e}")
+                return []
+            
             for cat_name, cat_info in categories.items():
-                print(f"🔍 Scraping {cat_name}...")
+                print(f"🔍 Processing {cat_name}...")
                 
                 try:
-                    response = self.session.get(cat_info["url"], timeout=30)
-                    response.raise_for_status()
-                    soup = BeautifulSoup(response.content, 'html.parser')
+                    # Cerca sezione specifica per categoria
+                    section_selectors = [
+                        f'#{cat_info["section_id"]}',
+                        f'.{cat_info["section_id"]}',
+                        f'[data-section="{cat_info["section_id"]}"]',
+                        f'.section-{cat_info["section_id"]}',
+                        f'div[id*="{cat_info["section_id"]}"]'
+                    ]
                     
-                    # Cerca elementi con la classe colore corretta
-                    items = soup.find_all('div', class_=[
-                        f'item-{cat_info["color_class"]}',
-                        f'card-{cat_info["color_class"]}',
-                        'news-item'
-                    ])[:5]  # Max 5 per categoria
+                    section = None
+                    for selector in section_selectors:
+                        section = soup.select_one(selector)
+                        if section:
+                            print(f"✅ Found section with selector: {selector}")
+                            break
                     
-                    for i, item in enumerate(items):
+                    if not section:
+                        print(f"❌ Section not found for {cat_name}")
+                        continue
+                    
+                    # Cerca articoli/news nella sezione
+                    article_selectors = [
+                        'article',
+                        '.article',
+                        '.news-item',
+                        '.info-item', 
+                        '.card',
+                        '.item',
+                        'li',
+                        '.entry'
+                    ]
+                    
+                    articles = []
+                    for selector in article_selectors:
+                        articles = section.select(selector)
+                        if articles:
+                            print(f"✅ Found {len(articles)} articles with selector: {selector}")
+                            break
+                    
+                    if not articles:
+                        print(f"❌ No articles found in {cat_name} section")
+                        continue
+                    
+                    # Processa massimo 5 articoli per categoria
+                    for i, article in enumerate(articles[:5]):
                         try:
                             # Estrai data e verifica se è negli ultimi 7 giorni
-                            date_elem = item.find(['time', 'span'], class_=['date', 'time', 'published'])
-                            date_str = self.parse_japanese_date(date_elem.get_text() if date_elem else "")
+                            date_selectors = [
+                                'time', '.date', '.published', '.time',
+                                '[datetime]', '.post-date', '.entry-date'
+                            ]
+                            
+                            date_elem = None
+                            for date_sel in date_selectors:
+                                date_elem = article.select_one(date_sel)
+                                if date_elem:
+                                    break
+                            
+                            date_str = self.parse_japanese_date(
+                                date_elem.get('datetime') or 
+                                date_elem.get_text() if date_elem else ""
+                            )
                             
                             # Controlla se la news è recente
                             try:
@@ -84,11 +143,32 @@ class PokemonNewsScraper:
                             except:
                                 pass  # Se data non parsabile, includi comunque
                             
-                            # Estrai contenuti
-                            title_elem = item.find(['h2', 'h3', 'a'])
-                            title_jp = title_elem.get_text(strip=True) if title_elem else f"{cat_name} Update"
+                            # Estrai titolo
+                            title_selectors = [
+                                'h1', 'h2', 'h3', 'h4', '.title', '.headline',
+                                '.entry-title', 'a', '.name'
+                            ]
                             
-                            desc_elem = item.find(['p', 'div'], class_=['summary', 'excerpt', 'description'])
+                            title_elem = None
+                            for title_sel in title_selectors:
+                                title_elem = article.select_one(title_sel)
+                                if title_elem and title_elem.get_text(strip=True):
+                                    break
+                            
+                            title_jp = title_elem.get_text(strip=True) if title_elem else f"{cat_name} Update {i+1}"
+                            
+                            # Estrai descrizione
+                            desc_selectors = [
+                                'p', '.summary', '.excerpt', '.description',
+                                '.content', '.text', '.body'
+                            ]
+                            
+                            desc_elem = None
+                            for desc_sel in desc_selectors:
+                                desc_elem = article.select_one(desc_sel)
+                                if desc_elem and desc_elem.get_text(strip=True):
+                                    break
+                            
                             desc_jp = desc_elem.get_text(strip=True)[:300] if desc_elem else title_jp
                             
                             # Traduci
@@ -116,11 +196,11 @@ class PokemonNewsScraper:
                             print(f"✅ Added: {title_it[:40]}...")
                             
                         except Exception as e:
-                            print(f"❌ Error parsing item in {cat_name}: {e}")
+                            print(f"❌ Error parsing article in {cat_name}: {e}")
                             continue
                 
                 except Exception as e:
-                    print(f"❌ Error scraping {cat_name}: {e}")
+                    print(f"❌ Error processing {cat_name}: {e}")
                     continue
                 
                 # Delay tra categorie per essere gentili
@@ -133,40 +213,51 @@ class PokemonNewsScraper:
             print(f"❌ Error scraping news: {e}")
             return []
     
-    def get_emoji(self, category):
-        """Emoji per categoria"""
-        emojis = {
-            "set_release": "📦",
-            "tournament": "🏆", 
-            "promo": "🎁"
-        }
-        return emojis.get(category, "📰")
-    
     def scrape_promo_cards(self):
-        """Scrapi SOLO dalle CAMPAGNE VERDI per le carte promo"""
+        """Scrapi SOLO dalle CAMPAGNE per le carte promo"""
         try:
-            promo_url = "https://www.pokemon-card.com/campaign/"
-            response = self.session.get(promo_url, timeout=30)
+            # URL corretto per campagne
+            campaign_url = "https://www.pokemon-card.com/info/#campaign"
+            main_url = "https://www.pokemon-card.com/info/"
+            
+            print(f"🎴 Loading campaigns from: {main_url}")
+            response = self.session.get(main_url, timeout=30)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
             promo_cards = []
             
-            # Cerca campagne attive/future (verde)
-            campaign_items = soup.find_all('div', class_=[
-                'campaign-item', 
-                'item-green',
-                'card-green',
-                'promo-campaign'
-            ])[:8]  # Max 8 promo
+            # Cerca sezione campagne
+            campaign_section = None
+            campaign_selectors = [
+                '#campaign', '.campaign', '[data-section="campaign"]',
+                '.section-campaign', 'div[id*="campaign"]'
+            ]
+            
+            for selector in campaign_selectors:
+                campaign_section = soup.select_one(selector)
+                if campaign_section:
+                    print(f"✅ Found campaign section with: {selector}")
+                    break
+            
+            if not campaign_section:
+                print(f"❌ Campaign section not found")
+                return []
+            
+            # Cerca campagne attive/future
+            campaign_items = campaign_section.select('article, .article, .item, .card, li, .entry')[:8]
+            print(f"🔍 Found {len(campaign_items)} campaign items")
             
             seven_days_ago = datetime.now() - timedelta(days=7)
             
             for i, item in enumerate(campaign_items):
                 try:
                     # Verifica se è una campagna recente o futura
-                    date_elem = item.find(['time', 'span'], class_=['date', 'period', 'until'])
-                    date_str = self.parse_japanese_date(date_elem.get_text() if date_elem else "")
+                    date_elem = item.select_one('time, .date, .period, .until, [datetime]')
+                    date_str = self.parse_japanese_date(
+                        date_elem.get('datetime') or 
+                        date_elem.get_text() if date_elem else ""
+                    )
                     
                     # Per le promo, includiamo anche quelle future
                     try:
@@ -177,15 +268,16 @@ class PokemonNewsScraper:
                         pass
                     
                     # Estrai info carta promo
-                    name_elem = item.find(['h3', 'h4'], class_=['title', 'name'])
+                    name_elem = item.select_one('h1, h2, h3, h4, .title, .name, a')
                     name_jp = name_elem.get_text(strip=True) if name_elem else f"Carta Promo Campagna {i+1}"
                     name_it = self.translate_to_italian(name_jp)
                     
                     # Cerca codice carta se presente
-                    code_elem = item.find(['span', 'div'], class_=['code', 'number', 'card-no'])
-                    code = code_elem.get_text(strip=True) if code_elem else f"CAMP-{i+1:03d}"
+                    code_text = item.get_text()
+                    code_match = re.search(r'[A-Z0-9]+-[A-Z0-9]+|No\.\s*\d+|\d+/\d+', code_text)
+                    code = code_match.group() if code_match else f"CAMP-{i+1:03d}"
                     
-                    desc_elem = item.find(['p', 'div'], class_=['description', 'summary'])
+                    desc_elem = item.select_one('p, .description, .summary, .content')
                     desc_jp = desc_elem.get_text(strip=True) if desc_elem else "Carta promozionale da campagna speciale"
                     desc_it = self.translate_to_italian(desc_jp)
                     
@@ -208,6 +300,7 @@ class PokemonNewsScraper:
                     print(f"❌ Error parsing promo campaign: {e}")
                     continue
             
+            print(f"🎴 Total promo cards found: {len(promo_cards)}")
             return promo_cards
             
         except Exception as e:
@@ -425,21 +518,10 @@ class PokemonNewsScraper:
 
 # MAIN EXECUTION
 if __name__ == "__main__":
-    import os
-    
-    # Prendi token e repo dalle environment variables
-    GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
-    GITHUB_REPO = os.environ.get('GITHUB_REPOSITORY', 'jackjack04/kakunadx-data')
-    
-    if not GITHUB_TOKEN:
-        print("❌ GITHUB_TOKEN not found!")
-        exit(1)
-    
-    print(f"🚀 Starting automation for {GITHUB_REPO}...")
+    # Configurazione (da mettere come environment variables)
+    GITHUB_TOKEN = "your_github_token_here"
+    GITHUB_REPO = "jackjack04/kakunadx-data"
     
     # Crea scraper ed esegui
     scraper = PokemonNewsScraper(GITHUB_TOKEN, GITHUB_REPO)
-    success = scraper.run_full_automation()
-    
-    if not success:
-        exit(1)  # Fail job se automation fallisce
+    scraper.run_full_automation()
