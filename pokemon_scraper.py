@@ -425,10 +425,21 @@ class PokemonNewsScraper:
 
 # MAIN EXECUTION
 if __name__ == "__main__":
-    # Configurazione (da mettere come environment variables)
-    GITHUB_TOKEN = "your_github_token_here"
-    GITHUB_REPO = "jackjack04/kakunadx-data"
+    import os
+    
+    # Prendi token e repo dalle environment variables
+    GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
+    GITHUB_REPO = os.environ.get('GITHUB_REPOSITORY', 'jackjack04/kakunadx-data')
+    
+    if not GITHUB_TOKEN:
+        print("❌ GITHUB_TOKEN not found!")
+        exit(1)
+    
+    print(f"🚀 Starting automation for {GITHUB_REPO}...")
     
     # Crea scraper ed esegui
     scraper = PokemonNewsScraper(GITHUB_TOKEN, GITHUB_REPO)
-    scraper.run_full_automation()
+    success = scraper.run_full_automation()
+    
+    if not success:
+        exit(1)  # Fail job se automation fallisce
