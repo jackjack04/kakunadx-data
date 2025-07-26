@@ -1,9 +1,9 @@
 name: 🤖 KakunaDex Selenium Auto Update
 
 on:
-  # Esegui ogni 12 ore
+  # Esegui ogni 6 ore per contenuti sempre freschi!
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */6 * * *'
   
   # Permetti esecuzione manuale
   workflow_dispatch:
