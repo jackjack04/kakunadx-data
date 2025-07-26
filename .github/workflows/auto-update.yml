@@ -1,0 +1,44 @@
+name: 🤖 KakunaDex Auto Update
+
+on:
+  # Esegui ogni 6 ore
+  schedule:
+    - cron: '0 */6 * * *'  # Ogni 6 ore
+  
+  # Permetti esecuzione manuale
+  workflow_dispatch:
+
+  # Test su push (rimuovi dopo setup)
+  push:
+    branches: [ main ]
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: 📦 Install Dependencies
+      run: |
+        pip install requests beautifulsoup4 googletrans==4.0.0rc1 PyGithub
+    
+    - name: 🕷️ Run Pokemon Scraper
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: |
+        python pokemon_scraper.py
+    
+    - name: 📊 Show Results
+      run: |
+        echo "✅ Automation completed!"
+        git log --oneline -5
