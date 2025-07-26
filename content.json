@@ -60,17 +60,7 @@
       "category": "tournament",
       "isHighlighted": false
     },
-    {
-      "id": "auto_tournament_1753495561_1",
-      "title": "🏆 evento",
-      "subtitle": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una b...",
-      "content": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una battaglia seria, fai clic qui Event Top Event Search Players Event Club I principianti possono goderne questo!Se vuoi goderti una partita seria, prova questa sfida!",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
+      {
       "id": "auto_tournament_1753495561_2",
       "title": "🏆 Top evento",
       "subtitle": "Top evento",
@@ -108,76 +98,6 @@
       "imageUrl": null,
       "publishDate": "2025-07-26",
       "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "auto_tournament_1753495852_2",
-      "title": "🏆 Top evento",
-      "subtitle": "Top evento",
-      "content": "Top evento",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_tcg_classic_reprint_2025",
-      "title": "🎮 Pokémon TCG Classic: Ristampa Limitata!",
-      "subtitle": "Il set nostalgico torna disponibile",
-      "content": "Pokémon Company annuncia la ristampa del popolare TCG Classic con mazzi vintage di Kanto. Include carte originali rimasterizzate e una guida strategica esclusiva. Preordini aperti ora nei Pokémon Center!",
-      "imageUrl": null,
-      "publishDate": "2025-01-25",
-      "category": "set_release",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_tcg_pocket_mythical_island_2025",
-      "title": "📱 TCG Pocket: Espansione Mythical Island",
-      "subtitle": "Nuove carte leggendarie disponibili ora",
-      "content": "L'app Pokémon TCG Pocket si arricchisce con l'espansione Mythical Island! Mew, Celebi e altri Pokémon mitici arrivano con nuove meccaniche di gioco e artwork esclusivi. Evento speciale fino al 31 gennaio!",
-      "imageUrl": null,
-      "publishDate": "2025-01-25",
-      "category": "news",
-      "isHighlighted": false
-    },
-    {
-      "id": "battle_roads_spring_2025_announcement",
-      "title": "🏆 Battle Roads Spring 2025 Annunciati",
-      "subtitle": "Tornei ufficiali in arrivo a marzo",
-      "content": "The Pokémon Company svela il calendario dei Battle Roads Spring 2025! Tornei in oltre 50 città italiane da marzo a maggio. Premi esclusivi per tutti i partecipanti e carte promo per i vincitori. Iscrizioni aperte dal 1° febbraio.",
-      "imageUrl": null,
-      "publishDate": "2025-01-24",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "scarlet_violet_temporal_forces_preview",
-      "title": "📦 Anteprima Scarlet & Violet: Temporal Forces",
-      "subtitle": "Oltre 150 carte nel nuovo set",
-      "content": "Prime immagini del set Temporal Forces rivelano Pokémon Teracristal inediti e nuove carte Supporter. Include varianti alternative rare e meccaniche temporali innovative. Rilascio previsto per marzo 2025 in tutto il mondo.",
-      "imageUrl": null,
-      "publishDate": "2025-01-24",
-      "category": "set_release",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_center_restock_january_2025",
-      "title": "🛒 Pokémon Center: Nuove Scorte Disponibili",
-      "subtitle": "Prodotti sold-out tornano in stock",
-      "content": "Il Pokémon Center online restocka i prodotti più richiesti! Elite Trainer Box, Collection Box speciali e accessori esclusivi tornano disponibili. Spedizione gratuita per ordini sopra i 50€ fino al 31 gennaio.",
-      "imageUrl": null,
-      "publishDate": "2025-01-23",
-      "category": "news",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_day_2025_celebration_plans",
-      "title": "🎉 Pokémon Day 2025: 29 Anni di Magia",
-      "subtitle": "Celebrazioni speciali il 27 febbraio",
-      "content": "Si avvicina il 29° anniversario di Pokémon! The Pokémon Company promette sorprese speciali per il Pokémon Day 2025. Eventi nei negozi, distribuzioni esclusive e annunci importanti. Preparati per una giornata indimenticabile!",
-      "imageUrl": null,
-      "publishDate": "2025-01-23",
-      "category": "news",
       "isHighlighted": false
     }
   ],
