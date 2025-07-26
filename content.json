@@ -1,202 +1,698 @@
-{
-  "news": [
-    {
-      "id": "auto_set_release_1753495559_0",
-      "title": "📦 Informazioni sul prodotto",
-      "subtitle": "Informazioni sul prodotto",
-      "content": "Informazioni sul prodotto",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "set_release",
-      "isHighlighted": true
-    },
-    {
-      "id": "auto_tournament_1753495561_0",
-      "title": "🏆 Come giocare e le regole del torneo",
-      "subtitle": "Come giocare e le regole del torneo",
-      "content": "Come giocare e le regole del torneo",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": true
-    },
-    {
-      "id": "auto_tournament_1753495561_1",
-      "title": "🏆 evento",
-      "subtitle": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una b...",
-      "content": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una battaglia seria, fai clic qui Event Top Event Search Players Event Club I principianti possono goderne questo!Se vuoi goderti una partita seria, prova questa sfida!",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "auto_tournament_1753495561_2",
-      "title": "🏆 Top evento",
-      "subtitle": "Top evento",
-      "content": "Top evento",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "auto_set_release_1753495845_0",
-      "title": "📦 Informazioni sul prodotto",
-      "subtitle": "Informazioni sul prodotto",
-      "content": "Informazioni sul prodotto",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "set_release",
-      "isHighlighted": true
-    },
-    {
-      "id": "auto_tournament_1753495848_0",
-      "title": "🏆 Come giocare e le regole del torneo",
-      "subtitle": "Come giocare e le regole del torneo",
-      "content": "Come giocare e le regole del torneo",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": true
-    },
-    {
-      "id": "auto_tournament_1753495851_1",
-      "title": "🏆 evento",
-      "subtitle": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una b...",
-      "content": "Se sei un evento per principianti all'evento, fai clic qui se vuoi goderti una battaglia seria, fai clic qui Event Top Event Search Players Club Event I principianti possono divertirsi!Se vuoi goderti una partita seria, prova questa sfida!",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "auto_tournament_1753495852_2",
-      "title": "🏆 Top evento",
-      "subtitle": "Top evento",
-      "content": "Top evento",
-      "imageUrl": null,
-      "publishDate": "2025-07-26",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_tcg_classic_reprint_2025",
-      "title": "🎮 Pokémon TCG Classic: Ristampa Limitata!",
-      "subtitle": "Il set nostalgico torna disponibile",
-      "content": "Pokémon Company annuncia la ristampa del popolare TCG Classic con mazzi vintage di Kanto. Include carte originali rimasterizzate e una guida strategica esclusiva. Preordini aperti ora nei Pokémon Center!",
-      "imageUrl": null,
-      "publishDate": "2025-01-25",
-      "category": "set_release",
-      "isHighlighted": true
-    },
-    {
-      "id": "pokemon_tcg_pocket_mythical_island_2025",
-      "title": "📱 TCG Pocket: Espansione Mythical Island",
-      "subtitle": "Nuove carte leggendarie disponibili ora",
-      "content": "L'app Pokémon TCG Pocket si arricchisce con l'espansione Mythical Island! Mew, Celebi e altri Pokémon mitici arrivano con nuove meccaniche di gioco e artwork esclusivi. Evento speciale fino al 31 gennaio!",
-      "imageUrl": null,
-      "publishDate": "2025-01-25",
-      "category": "news",
-      "isHighlighted": true
-    },
-    {
-      "id": "battle_roads_spring_2025_announcement",
-      "title": "🏆 Battle Roads Spring 2025 Annunciati",
-      "subtitle": "Tornei ufficiali in arrivo a marzo",
-      "content": "The Pokémon Company svela il calendario dei Battle Roads Spring 2025! Tornei in oltre 50 città italiane da marzo a maggio. Premi esclusivi per tutti i partecipanti e carte promo per i vincitori. Iscrizioni aperte dal 1° febbraio.",
-      "imageUrl": null,
-      "publishDate": "2025-01-24",
-      "category": "tournament",
-      "isHighlighted": false
-    },
-    {
-      "id": "scarlet_violet_temporal_forces_preview",
-      "title": "📦 Anteprima Scarlet & Violet: Temporal Forces",
-      "subtitle": "Oltre 150 carte nel nuovo set",
-      "content": "Prime immagini del set Temporal Forces rivelano Pokémon Teracristal inediti e nuove carte Supporter. Include varianti alternative rare e meccaniche temporali innovative. Rilascio previsto per marzo 2025 in tutto il mondo.",
-      "imageUrl": null,
-      "publishDate": "2025-01-24",
-      "category": "set_release",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_center_restock_january_2025",
-      "title": "🛒 Pokémon Center: Nuove Scorte Disponibili",
-      "subtitle": "Prodotti sold-out tornano in stock",
-      "content": "Il Pokémon Center online restocka i prodotti più richiesti! Elite Trainer Box, Collection Box speciali e accessori esclusivi tornano disponibili. Spedizione gratuita per ordini sopra i 50€ fino al 31 gennaio.",
-      "imageUrl": null,
-      "publishDate": "2025-01-23",
-      "category": "news",
-      "isHighlighted": false
-    },
-    {
-      "id": "pokemon_day_2025_celebration_plans",
-      "title": "🎉 Pokémon Day 2025: 29 Anni di Magia",
-      "subtitle": "Celebrazioni speciali il 27 febbraio",
-      "content": "Si avvicina il 29° anniversario di Pokémon! The Pokémon Company promette sorprese speciali per il Pokémon Day 2025. Eventi nei negozi, distribuzioni esclusive e annunci importanti. Preparati per una giornata indimenticabile!",
-      "imageUrl": null,
-      "publishDate": "2025-01-23",
-      "category": "news",
-      "isHighlighted": false
-    }
-  ],
-  "promoCards": [
-    {
-      "id": "hiroshima-pikachu-svp-261-2025",
-      "name": "Hiroshima's Pikachu",
-      "code": "261/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-09-01",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "hiroshimaPikachu",
-      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
-      "availability": "store"
-    },
-    {
-      "id": "victini-svp-288-2025",
-      "name": "Victini",
-      "code": "288/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-31",
-      "rarity": "Promo BWR Style",
-      "imageUrl": "victiniSVP288",
-      "description": "La leggendaria carta Victini dal BWR Tournament. Design rosso iconico con holofoil speciale che continua a conquistare collezionisti. Oltre 17,000 copie distribuite attraverso tornei e lotterie speciali!",
-      "availability": "tournament"
-    },
-    {
-      "id": "fukuoka-pikachu-svp-289-2025",
-      "name": "Fukuoka's Pikachu",
-      "code": "289/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-15",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "fukuokaPikachu",
-      "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
-      "availability": "store"
-    },
-    {
-      "id": "tohoku-pikachu-svp-260-2025",
-      "name": "Tohoku's Pikachu",
-      "code": "260/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-15",
-      "rarity": "Mirror Holofoil Promo",
-      "imageUrl": "tohokuPikachu",
-      "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
-      "availability": "store"
-    },
-    {
-      "id": "roxanne-svp-290-2025",
-      "name": "Roxanne",
-      "code": "290/SV-P",
-      "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-07-01",
-      "rarity": "Extra Battle Day Promo",
-      "imageUrl": "roxanneSVP290",
-      "description": "Supporter card con design retro Sword & Shield! Premio di partecipazione agli Extra Battle Day dal luglio 2025. Sostituisce Irida con artwork alternativo vintage. Include pack bonus con 12 carte rare aggiuntive.",
-      "availability": "tournament"
-    }
-  ],
-  "lastUpdated": "2025-07-26 12:08:46 - 🤖 Selenium: 0 news, 0 promo"
-}
+# KakunaDx Manual Content Generator
+# Generatore manuale con 4 NEWS IN EVIDENZA fisse
+
+import tkinter as tk
+from tkinter import ttk, scrolledtext, messagebox, filedialog
+import json
+from datetime import datetime, timedelta
+import os
+import webbrowser
+
+class KakunaDxManualGenerator:
+    def __init__(self):
+        self.root = tk.Tk()
+        self.root.title("📱 KakunaDx Manual Content Generator")
+        self.root.geometry("1000x700")
+        self.root.configure(bg='#f0f0f0')
+        
+        # Contenuti fissi predefiniti
+        self.featured_news = self.create_featured_news()
+        self.additional_news = []
+        self.promo_cards = []
+        
+        self.setup_ui()
+        
+    def setup_ui(self):
+        """Configura interfaccia utente"""
+        
+        # Header
+        header_frame = tk.Frame(self.root, bg='#2196F3', height=60)
+        header_frame.pack(fill='x', padx=10, pady=10)
+        header_frame.pack_propagate(False)
+        
+        title_label = tk.Label(header_frame, text="📱 KakunaDx Manual Generator", 
+                              font=('Arial', 16, 'bold'), fg='white', bg='#2196F3')
+        title_label.pack(expand=True)
+        
+        # Notebook per tab
+        notebook = ttk.Notebook(self.root)
+        notebook.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Tab 1: News in Evidenza (4 fisse)
+        self.featured_frame = ttk.Frame(notebook)
+        notebook.add(self.featured_frame, text="🔥 News in Evidenza")
+        self.setup_featured_tab()
+        
+        # Tab 2: News Aggiuntive
+        self.additional_frame = ttk.Frame(notebook)
+        notebook.add(self.additional_frame, text="📰 News Aggiuntive")
+        self.setup_additional_tab()
+        
+        # Tab 3: Carte Promo
+        self.promo_frame = ttk.Frame(notebook)
+        notebook.add(self.promo_frame, text="🎴 Carte Promo")
+        self.setup_promo_tab()
+        
+        # Tab 4: Export Finale
+        self.export_frame = ttk.Frame(notebook)
+        notebook.add(self.export_frame, text="📤 Export")
+        self.setup_export_tab()
+        
+        # Status bar
+        self.status_var = tk.StringVar()
+        self.status_var.set("📱 Ready - 4 News in Evidenza caricate automaticamente")
+        status_bar = tk.Label(self.root, textvariable=self.status_var, 
+                             relief='sunken', anchor='w', bg='#e0e0e0')
+        status_bar.pack(side='bottom', fill='x')
+        
+    def create_featured_news(self):
+        """Crea le 4 news in evidenza fisse"""
+        return [
+            {
+                "id": "featured_expansion_2025",
+                "title": "🎮 Pokémon Mega Brave & Symphonia",
+                "subtitle": "Nuove espansioni MEGA in arrivo ad agosto",
+                "content": """**Pacchetto di espansione MEGA del gioco di carte Pokémon "Mega Brave"**
+Prezzo consigliato: 180 yen (tasse incluse). Contenuto: 5 carte. *Le carte sono incluse casualmente. Data di uscita: venerdì 1 agosto 2025.
+
+**Pacchetto di espansione MEGA del gioco di carte Pokémon "Mega Symphonia"** 
+Prezzo consigliato: 180 yen (tasse incluse). Contenuto: 5 carte. *Le carte sono incluse casualmente. Data di uscita: venerdì 1 agosto 2025.
+
+**Scatola Allenatore Premium del Gioco di Carte Pokémon MEGA**
+Prezzo al dettaglio consigliato: 6.350 yen (tasse incluse)
+
+**Contenuto:**
+• Pacchetto di espansione "Mega Brave" ... 10 pacchetti
+• Pacchetto di espansione "Mega Symphonia" ... 10 pacchetti  
+• Carte: 172 (51 tipi in totale) 13 Pokémon, 59 Allenatori, 4 Energie Speciali, 96 Energie Base
+• Scatola di carte: 1
+• Moneta Pokémon: 1
+• Segnalini danno in acrilico...1 set (100 segnalini danno: 6 pezzi / 50 segnalini danno: 8 pezzi / 10 segnalini danno: 20 pezzi)
+• Contatore danni: 1
+• Marcatore Premium (veleno/brucia)...1 di ciascuno
+
+*Il pacchetto di espansione contiene 5 carte casuali. *Questo prodotto include anche alcune ristampe di carte della serie "Pokémon Card Game Scarlet & Violet". Data di uscita: venerdì 1 agosto 2025""",
+                "publishDate": "2025-07-26",
+                "category": "set_release",
+                "imageUrl": "BannerSet",
+                "isHighlighted": True
+            },
+            {
+                "id": "featured_special_boxes_2025",
+                "title": "🎁 Svelati i Pokemon Center Special BOX",
+                "subtitle": "Box speciali di Tohoku, Hiroshima e Fukuoka",
+                "content": """Sono state svelate 3 scatole speciali per commemorare i lavori di ristrutturazione dei Pokémon Center di Tohoku, Hiroshima e Fukuoka, avvenuti all'inizio di quest'anno.
+
+Si chiamano Special BOX Pokémon Center Tohoku, Special BOX Pokémon Center Hiroshima e Special BOX Pokémon Center Fukuoka. Saranno disponibili da metà agosto a fine settembre, senza una data specifica, e sono già disponibili per la vendita a lotteria al prezzo di 2090 yen a box.
+
+Queste scatole includono anche una speciale promozione esclusiva Pikachu di ogni rispettivo Pokémon Center.
+
+**Contenuto della confezione speciale Pokemon Center Fukuoka:**
+• 1 carta promozionale (specchio) "Pikachu di Fukuoka"
+• 1 set di bustine protettive per mazzo (64 pezzi)
+• 1 scatola per mazzo
+• 1 scatola lunga per riporre le carte
+Prezzo di vendita consigliato 2.090 yen (tasse incluse)
+
+**Contenuto della confezione speciale Pokemon Center Hiroshima:**
+• 1 carta promozionale (Mirrorfoil) "Pikachu di Hiroshima"
+• 1 set di bustine protettive per mazzo (64 pezzi)
+• 1 scatola per mazzo
+• 1 scatola lunga per riporre le carte
+Prezzo di vendita consigliato 2.090 yen (tasse incluse)
+
+**Contenuto della confezione speciale Pokemon Center Tohoku:**
+• 1 carta promozionale (specchio) "Pikachu di Tohoku"
+• 1 set di bustine protettive per mazzo (64 pezzi)
+• 1 scatola per mazzo
+• 1 scatola lunga per riporre le carte
+Prezzo di vendita consigliato 2.090 yen (tasse incluse)
+
+Venduto presso: Pokémon Center Online. Metodo di vendita: tramite lotteria presso il Pokémon Center Online.""",
+                "publishDate": "2025-07-26",
+                "category": "promo",
+                "imageUrl": "special_boxes_pikachu",
+                "isHighlighted": True
+            },
+            {
+                "id": "featured_promo_packs_2025",
+                "title": "🎴 Prime Buste Carte Promozionali MEGA",
+                "subtitle": "Distribuzione presso le Pokémon Card Gyms",
+                "content": """La distribuzione delle prime buste di carte promozionali della serie "Pokémon Card Game MEGA" inizierà venerdì 1° agosto presso le Pokémon Card Gyms di tutto il Paese.
+
+**Cos'è un pacchetto di carte promozionali?**
+Puoi ottenerle partecipando o vincendo le battaglie in palestra che si tengono nelle palestre di carte Pokémon in tutto il paese. Le buste di carte promozionali sono disponibili in confezioni singole e doppie, e ogni busta contiene una o due carte promozionali casuali. Possono anche contenere potenti carte Pokémon EX o Allenatore.
+
+**Carte incluse nel primo pacchetto di carte promozionali:**
+Il primo pacchetto di carte promozionali per la serie "Pokemon Card Game MEGA" conterrà un totale di sette carte, tra cui Lapras ex.
+
+**Lapras ex**
+La mossa di Lapras EX "Idrosposta" è una mossa che aumenta il danno inflitto in base al numero di energie acqua assegnate. Inoltre, l'effetto della mossa permette di scambiarsi con un Pokémon in panchina, così da poter combattere senza essere sconfitti da tattiche mordi e fuggi.
+
+**Pala da bucato**
+È stato rilasciato un nuovo oggetto, "Pala Buca", che permette di scartare le prime due carte del mazzo. Dato che è possibile aggiungere altre carte al cestino, è un'ottima carta per i Pokémon più tecnici e per gli allenatori che usano il cestino.
+
+**La decisione di Lillie**
+"La Decisione di Lillie", una nuova carta dell'espansione "Mega Coraggioso", è disponibile anche nel pacchetto di carte promo. Se hai 6 carte rimanenti nel tuo lato, puoi rimettere tutte le tue carte nel mazzo e poi pescarne 8, il che è un supporto potente.
+
+**Makunoshita/Chikorita**
+Makunoshita e Chikorita, che appariranno rispettivamente nelle espansioni "Mega Brave" e "Mega Symphonia", sono presenti in illustrazioni diverse. Le illustrazioni mostrano Makunoshita in piedi, possente e a distanza ravvicinata, mentre Chikorita è circondata da splendidi fiori, godendone il profumo.
+
+**Come ottenere il primo pacchetto di carte promozionali:**
+Partecipando alla battaglia in palestra, potrai aggiudicarti il "1° pacchetto di carte promozionali" tra i seguenti premi: 1 pacchetto (contenente 2 carte) come premio di partecipazione, 1 pacchetto (contenente 1 carta) come premio per la vincita e 1 pacchetto (contenente 1 carta) per aver vinto il torneo sasso-carta-forbici (obbligatorio per 9 o più partecipanti)!""",
+                "publishDate": "2025-07-26",
+                "category": "promo",
+                "imageUrl": "promo_packs_mega",
+                "isHighlighted": True
+            },
+            {
+                "id": "featured_tournaments_2025",
+                "title": "🏆 Scramble Battle a Tokyo!",
+                "subtitle": "Torneo su larga scala con Single e Trio Battle",
+                "content": """**"Scramble Battle" si terrà a Tokyo!**
+
+**Organizzeremo anche una "Trio Battle" con squadre composte da tre persone!**
+
+L'evento di lotta su larga scala "Pokémon Card Game Scramble Battle" si terrà a Tokyo per due giorni, sabato 30 e domenica 31 agosto 2025! 
+
+"Scramble Battle" si svolgerà in un formato "svizzero in tempo reale", dove i partecipanti potranno confrontarsi istantaneamente con gli avversari usando i loro smartphone. 
+
+Questa volta, il primo giorno sarà una "Single Battle" in cui i partecipanti si sfideranno da soli, mentre il secondo giorno sarà una "Trio Battle" in cui si sfideranno squadre di tre persone. 
+
+Per i dettagli, consulta le modalità di iscrizione qui sotto. Partecipa con i tuoi amici e familiari e divertiti giocando al Gioco di Carte Pokémon in "Scramble Battle"!
+
+**Date:** 30-31 Agosto 2025
+**Luogo:** Tokyo - Ariake GYM-EX
+
+*Questo evento richiede la prenotazione anticipata. Solo coloro che saranno stati selezionati in anticipo potranno accedere alla sede per la vendita di merchandising, ecc.
+
+*Questo evento richiede un account LINE e uno smartphone. Si prega di notare che non è possibile partecipare da un tablet.""",
+                "publishDate": "2025-07-26",
+                "category": "tournament",
+                "imageUrl": "scramble_battle_tokyo",
+                "isHighlighted": True
+            }
+        ]
+    
+    def setup_featured_tab(self):
+        """Setup tab per le 4 news in evidenza fisse"""
+        
+        main_frame = tk.Frame(self.featured_frame)
+        main_frame.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Header
+        tk.Label(main_frame, text="🔥 News in Evidenza (4 Fisse)", 
+                font=('Arial', 14, 'bold')).pack(anchor='w', pady=(0, 10))
+        
+        info_label = tk.Label(main_frame, 
+                             text="Queste sono le 4 news principali che appariranno sempre in evidenza nell'app. Puoi modificarle se necessario.",
+                             font=('Arial', 10), fg='#666')
+        info_label.pack(anchor='w', pady=(0, 20))
+        
+        # Lista delle 4 news
+        for i, news in enumerate(self.featured_news, 1):
+            news_frame = tk.LabelFrame(main_frame, text=f"📌 News {i}: {news['title']}", 
+                                      font=('Arial', 10, 'bold'))
+            news_frame.pack(fill='x', pady=(0, 15))
+            
+            # Info compatte
+            info_text = f"Categoria: {news['category']} | Data: {news['publishDate']} | Immagine: {news['imageUrl']}"
+            tk.Label(news_frame, text=info_text, font=('Arial', 9), fg='#666').pack(anchor='w', padx=10, pady=5)
+            
+            # Sottotitolo
+            tk.Label(news_frame, text=f"📝 {news['subtitle']}", 
+                    font=('Arial', 10)).pack(anchor='w', padx=10, pady=2)
+            
+            # Bottoni
+            button_frame = tk.Frame(news_frame)
+            button_frame.pack(fill='x', padx=10, pady=5)
+            
+            tk.Button(button_frame, text="👀 Visualizza Completa", 
+                     command=lambda idx=i-1: self.view_featured_news(idx), 
+                     bg='#2196F3', fg='white').pack(side='left', padx=(0, 10))
+            
+            tk.Button(button_frame, text="✏️ Modifica", 
+                     command=lambda idx=i-1: self.edit_featured_news(idx), 
+                     bg='#FF9800', fg='white').pack(side='left')
+        
+        # Bottoni generali
+        general_buttons = tk.Frame(main_frame)
+        general_buttons.pack(fill='x', pady=20)
+        
+        tk.Button(general_buttons, text="🔄 Ripristina Default", 
+                 command=self.reset_featured_news, bg='#f44336', fg='white', 
+                 font=('Arial', 10, 'bold')).pack(side='left', padx=(0, 10))
+        
+        tk.Button(general_buttons, text="💾 Salva Modifiche", 
+                 command=self.save_featured_changes, bg='#4CAF50', fg='white', 
+                 font=('Arial', 10, 'bold')).pack(side='left')
+    
+    def setup_additional_tab(self):
+        """Setup tab per news aggiuntive"""
+        
+        main_frame = tk.Frame(self.additional_frame)
+        main_frame.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        tk.Label(main_frame, text="📰 News Aggiuntive", 
+                font=('Arial', 14, 'bold')).pack(anchor='w', pady=(0, 10))
+        
+        tk.Label(main_frame, text="Aggiungi news aggiuntive che appariranno sotto le 4 news in evidenza.",
+                font=('Arial', 10), fg='#666').pack(anchor='w', pady=(0, 20))
+        
+        # Form per nuova news
+        form_frame = tk.LabelFrame(main_frame, text="➕ Aggiungi Nuova News", font=('Arial', 10, 'bold'))
+        form_frame.pack(fill='x', pady=(0, 20))
+        
+        # Campi form
+        tk.Label(form_frame, text="Titolo:").pack(anchor='w', padx=10, pady=2)
+        self.add_title = tk.Entry(form_frame, font=('Arial', 10), width=80)
+        self.add_title.pack(fill='x', padx=10, pady=2)
+        
+        tk.Label(form_frame, text="Sottotitolo:").pack(anchor='w', padx=10, pady=2)
+        self.add_subtitle = tk.Entry(form_frame, font=('Arial', 10), width=80)
+        self.add_subtitle.pack(fill='x', padx=10, pady=2)
+        
+        tk.Label(form_frame, text="Contenuto:").pack(anchor='w', padx=10, pady=2)
+        self.add_content = scrolledtext.ScrolledText(form_frame, height=8, font=('Arial', 10))
+        self.add_content.pack(fill='x', padx=10, pady=2)
+        
+        # Opzioni
+        options_frame = tk.Frame(form_frame)
+        options_frame.pack(fill='x', padx=10, pady=10)
+        
+        tk.Label(options_frame, text="Categoria:").pack(side='left', padx=(0, 10))
+        self.add_category = ttk.Combobox(options_frame, values=["news", "tournament", "promo", "set_release"], width=15)
+        self.add_category.set("news")
+        self.add_category.pack(side='left', padx=(0, 20))
+        
+        self.add_highlighted = tk.BooleanVar()
+        tk.Checkbutton(options_frame, text="🔥 In evidenza", variable=self.add_highlighted).pack(side='left')
+        
+        # Bottone aggiungi
+        tk.Button(form_frame, text="➕ Aggiungi News", command=self.add_additional_news, 
+                 bg='#4CAF50', fg='white', font=('Arial', 10, 'bold')).pack(pady=10)
+        
+        # Lista news aggiuntive
+        list_frame = tk.LabelFrame(main_frame, text="📋 News Aggiuntive", font=('Arial', 10, 'bold'))
+        list_frame.pack(fill='both', expand=True)
+        
+        self.additional_listbox = tk.Listbox(list_frame, height=10, font=('Arial', 9))
+        self.additional_listbox.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Bottoni lista
+        list_buttons = tk.Frame(list_frame)
+        list_buttons.pack(fill='x', padx=10, pady=10)
+        
+        tk.Button(list_buttons, text="❌ Rimuovi", command=self.remove_additional_news, 
+                 bg='#f44336', fg='white').pack(side='left', padx=(0, 10))
+        
+        tk.Button(list_buttons, text="✏️ Modifica", command=self.edit_additional_news, 
+                 bg='#FF9800', fg='white').pack(side='left')
+    
+    def setup_promo_tab(self):
+        """Setup tab per carte promo"""
+        
+        main_frame = tk.Frame(self.promo_frame)
+        main_frame.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        tk.Label(main_frame, text="🎴 Carte Promo", 
+                font=('Arial', 14, 'bold')).pack(anchor='w', pady=(0, 10))
+        
+        # Form carta promo
+        form_frame = tk.LabelFrame(main_frame, text="➕ Aggiungi Carta Promo", font=('Arial', 10, 'bold'))
+        form_frame.pack(fill='x', pady=(0, 20))
+        
+        # Grid per campi
+        grid_frame = tk.Frame(form_frame)
+        grid_frame.pack(fill='x', padx=10, pady=10)
+        
+        tk.Label(grid_frame, text="Nome:").grid(row=0, column=0, sticky='w', padx=5, pady=5)
+        self.promo_name = tk.Entry(grid_frame, font=('Arial', 10), width=25)
+        self.promo_name.grid(row=0, column=1, padx=5, pady=5)
+        
+        tk.Label(grid_frame, text="Codice:").grid(row=0, column=2, sticky='w', padx=5, pady=5)
+        self.promo_code = tk.Entry(grid_frame, font=('Arial', 10), width=15)
+        self.promo_code.grid(row=0, column=3, padx=5, pady=5)
+        
+        tk.Label(grid_frame, text="Serie:").grid(row=1, column=0, sticky='w', padx=5, pady=5)
+        self.promo_series = tk.Entry(grid_frame, font=('Arial', 10), width=25)
+        self.promo_series.insert(0, "Promotional Collection 2025")
+        self.promo_series.grid(row=1, column=1, padx=5, pady=5)
+        
+        tk.Label(grid_frame, text="Data Rilascio:").grid(row=1, column=2, sticky='w', padx=5, pady=5)
+        self.promo_date = tk.Entry(grid_frame, font=('Arial', 10), width=15)
+        self.promo_date.insert(0, (datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d'))
+        self.promo_date.grid(row=1, column=3, padx=5, pady=5)
+        
+        tk.Label(grid_frame, text="Rarità:").grid(row=2, column=0, sticky='w', padx=5, pady=5)
+        self.promo_rarity = ttk.Combobox(grid_frame, values=["Promo", "Event Promo", "Tournament Prize", "Special Promo"], width=22)
+        self.promo_rarity.set("Promo")
+        self.promo_rarity.grid(row=2, column=1, padx=5, pady=5)
+        
+        tk.Label(grid_frame, text="Disponibilità:").grid(row=2, column=2, sticky='w', padx=5, pady=5)
+        self.promo_availability = ttk.Combobox(grid_frame, values=["store", "tournament", "online"], width=12)
+        self.promo_availability.set("store")
+        self.promo_availability.grid(row=2, column=3, padx=5, pady=5)
+        
+        # Descrizione
+        tk.Label(form_frame, text="Descrizione:").pack(anchor='w', padx=10, pady=(10, 2))
+        self.promo_description = scrolledtext.ScrolledText(form_frame, height=4, font=('Arial', 10))
+        self.promo_description.pack(fill='x', padx=10, pady=2)
+        
+        # Bottone aggiungi
+        tk.Button(form_frame, text="🎴 Aggiungi Carta Promo", command=self.add_promo_card, 
+                 bg='#9C27B0', fg='white', font=('Arial', 10, 'bold')).pack(pady=10)
+        
+        # Lista carte promo
+        list_frame = tk.LabelFrame(main_frame, text="🎴 Carte Promo", font=('Arial', 10, 'bold'))
+        list_frame.pack(fill='both', expand=True)
+        
+        self.promo_listbox = tk.Listbox(list_frame, height=10, font=('Arial', 9))
+        self.promo_listbox.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Bottoni lista promo
+        promo_buttons = tk.Frame(list_frame)
+        promo_buttons.pack(fill='x', padx=10, pady=10)
+        
+        tk.Button(promo_buttons, text="❌ Rimuovi", command=self.remove_promo_card, 
+                 bg='#f44336', fg='white').pack(side='left', padx=(0, 10))
+        
+        tk.Button(promo_buttons, text="✏️ Modifica", command=self.edit_promo_card, 
+                 bg='#FF9800', fg='white').pack(side='left')
+    
+    def setup_export_tab(self):
+        """Setup tab export"""
+        
+        tk.Label(self.export_frame, text="📤 Export Content.json Finale", 
+                font=('Arial', 14, 'bold')).pack(anchor='w', padx=10, pady=10)
+        
+        # Statistiche
+        self.stats_label = tk.Label(self.export_frame, text="📊 Caricando statistiche...", 
+                                   font=('Arial', 10))
+        self.stats_label.pack(anchor='w', padx=10, pady=5)
+        
+        # Anteprima JSON
+        self.json_preview = scrolledtext.ScrolledText(self.export_frame, font=('Consolas', 9))
+        self.json_preview.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Bottoni export
+        export_buttons = tk.Frame(self.export_frame)
+        export_buttons.pack(fill='x', padx=10, pady=10)
+        
+        tk.Button(export_buttons, text="🔄 Genera JSON", command=self.generate_final_json, 
+                 bg='#2196F3', fg='white', font=('Arial', 10, 'bold')).pack(side='left', padx=(0, 10))
+        
+        tk.Button(export_buttons, text="💾 Salva File", command=self.save_json_file, 
+                 bg='#4CAF50', fg='white', font=('Arial', 10, 'bold')).pack(side='left', padx=(0, 10))
+        
+        tk.Button(export_buttons, text="📋 Copia per GitHub", command=self.copy_to_clipboard, 
+                 bg='#FF9800', fg='white', font=('Arial', 10, 'bold')).pack(side='left', padx=(0, 10))
+        
+        tk.Button(export_buttons, text="🌐 Apri GitHub", command=self.open_github, 
+                 bg='#000000', fg='white', font=('Arial', 10, 'bold')).pack(side='right')
+    
+    # ================ FEATURED NEWS METHODS ================
+    
+    def view_featured_news(self, index):
+        """Visualizza news in evidenza completa"""
+        news = self.featured_news[index]
+        
+        view_window = tk.Toplevel(self.root)
+        view_window.title(f"👀 {news['title']}")
+        view_window.geometry("700x600")
+        
+        # Scrollable text
+        text_widget = scrolledtext.ScrolledText(view_window, font=('Arial', 10), wrap=tk.WORD)
+        text_widget.pack(fill='both', expand=True, padx=10, pady=10)
+        
+        # Contenuto formattato
+        content = f"""🔥 NEWS IN EVIDENZA #{index+1}
+
+📰 TITOLO: {news['title']}
+📝 SOTTOTITOLO: {news['subtitle']}
+📂 CATEGORIA: {news['category']}
+📅 DATA: {news['publishDate']}
+🖼️ IMMAGINE: {news['imageUrl']}
+🔥 IN EVIDENZA: {'Sì' if news['isHighlighted'] else 'No'}
+
+📄 CONTENUTO:
+{news['content']}"""
+        
+        text_widget.insert('1.0', content)
+        text_widget.config(state='disabled')
+    
+    def edit_featured_news(self, index):
+        """Modifica news in evidenza"""
+        news = self.featured_news[index]
+        
+        edit_window = tk.Toplevel(self.root)
+        edit_window.title(f"✏️ Modifica News #{index+1}")
+        edit_window.geometry("800x700")
+        
+        # Form di modifica
+        tk.Label(edit_window, text="Titolo:", font=('Arial', 10, 'bold')).pack(anchor='w', padx=10, pady=5)
+        title_entry = tk.Entry(edit_window, font=('Arial', 10), width=80)
+        title_entry.insert(0, news['title'])
+        title_entry.pack(fill='x', padx=10, pady=5)
+        
+        tk.Label(edit_window, text="Sottotitolo:", font=('Arial', 10, 'bold')).pack(anchor='w', padx=10, pady=5)
+        subtitle_entry = tk.Entry(edit_window, font=('Arial', 10), width=80)
+        subtitle_entry.insert(0, news['subtitle'])
+        subtitle_entry.pack(fill='x', padx=10, pady=5)
+        
+        tk.Label(edit_window, text="Contenuto:", font=('Arial', 10, 'bold')).pack(anchor='w', padx=10, pady=5)
+        content_text = scrolledtext.ScrolledText(edit_window, height=20, font=('Arial', 10))
+        content_text.insert('1.0', news['content'])
+        content_text.pack(fill='both', expand=True, padx=10, pady=5)
+        
+        # Bottoni
+        button_frame = tk.Frame(edit_window)
+        button_frame.pack(fill='x', padx=10, pady=10)
+        
+        def save_changes():
+            self.featured_news[index]['title'] = title_entry.get()
+            self.featured_news[index]['subtitle'] = subtitle_entry.get()
+            self.featured_news[index]['content'] = content_text.get('1.0', tk.END).strip()
+            edit_window.destroy()
+            messagebox.showinfo("Successo", f"News #{index+1} modificata!")
+            self.status_var.set(f"✏️ News in evidenza #{index+1} modificata")
+        
+        tk.Button(button_frame, text="💾 Salva Modifiche", command=save_changes, 
+                 bg='#4CAF50', fg='white', font=('Arial', 10, 'bold')).pack(side='left', padx=(0, 10))
+        
+        tk.Button(button_frame, text="❌ Annulla", command=edit_window.destroy, 
+                 bg='#f44336', fg='white').pack(side='left')
+    
+    def reset_featured_news(self):
+        """Ripristina news in evidenza ai valori default"""
+        if messagebox.askyesno("Conferma", "Ripristinare le 4 news in evidenza ai valori originali?"):
+            self.featured_news = self.create_featured_news()
+            messagebox.showinfo("Ripristinato", "News in evidenza ripristinate!")
+            self.status_var.set("🔄 News in evidenza ripristinate ai valori default")
+    
+    def save_featured_changes(self):
+        """Salva modifiche alle news in evidenza"""
+        messagebox.showinfo("Salvato", "Modifiche alle news in evidenza salvate!")
+        self.status_var.set("💾 Modifiche news in evidenza salvate")
+    
+    # ================ ADDITIONAL NEWS METHODS ================
+    
+    def add_additional_news(self):
+        """Aggiungi news aggiuntiva"""
+        title = self.add_title.get().strip()
+        subtitle = self.add_subtitle.get().strip()
+        content = self.add_content.get('1.0', tk.END).strip()
+        
+        if not all([title, subtitle, content]):
+            messagebox.showerror("Errore", "Compila tutti i campi!")
+            return
+        
+        news = {
+            "id": f"additional_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+            "title": title,
+            "subtitle": subtitle,
+            "content": content,
+            "publishDate": datetime.now().strftime('%Y-%m-%d'),
+            "category": self.add_category.get(),
+            "imageUrl": f"news_{len(self.additional_news)+1}",
+            "isHighlighted": self.add_highlighted.get()
+        }
+        
+        self.additional_news.append(news)
+        self.update_additional_list()
+        
+        # Pulisci form
+        self.add_title.delete(0, tk.END)
+        self.add_subtitle.delete(0, tk.END)
+        self.add_content.delete('1.0', tk.END)
+        self.add_highlighted.set(False)
+        
+        self.status_var.set(f"📰 News aggiuntiva '{title}' aggiunta!")
+    
+    def update_additional_list(self):
+        """Aggiorna lista news aggiuntive"""
+        self.additional_listbox.delete(0, tk.END)
+        for news in self.additional_news:
+            icon = "🔥" if news['isHighlighted'] else "📰"
+            self.additional_listbox.insert(tk.END, f"{icon} {news['title']}")
+    
+    def remove_additional_news(self):
+        """Rimuovi news aggiuntiva"""
+        selection = self.additional_listbox.curselection()
+        if selection:
+            index = selection[0]
+            removed = self.additional_news.pop(index)
+            self.update_additional_list()
+            self.status_var.set(f"❌ News '{removed['title']}' rimossa")
+    
+    def edit_additional_news(self):
+        """Modifica news aggiuntiva"""
+        selection = self.additional_listbox.curselection()
+        if not selection:
+            messagebox.showwarning("Attenzione", "Seleziona una news da modificare!")
+            return
+        
+        # Implementazione simile a edit_featured_news
+        messagebox.showinfo("Info", "Funzione di modifica in sviluppo!")
+    
+    # ================ PROMO CARDS METHODS ================
+    
+    def add_promo_card(self):
+        """Aggiungi carta promo"""
+        name = self.promo_name.get().strip()
+        code = self.promo_code.get().strip()
+        description = self.promo_description.get('1.0', tk.END).strip()
+        
+        if not all([name, code, description]):
+            messagebox.showerror("Errore", "Compila almeno nome, codice e descrizione!")
+            return
+        
+        promo = {
+            "id": f"promo_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+            "name": name,
+            "code": code,
+            "series": self.promo_series.get(),
+            "releaseDate": self.promo_date.get(),
+            "rarity": self.promo_rarity.get(),
+            "imageUrl": f"promo_{name.lower().replace(' ', '_')}",
+            "description": description,
+            "availability": self.promo_availability.get()
+        }
+        
+        self.promo_cards.append(promo)
+        self.update_promo_list()
+        
+        # Pulisci form
+        self.promo_name.delete(0, tk.END)
+        self.promo_code.delete(0, tk.END)
+        self.promo_description.delete('1.0', tk.END)
+        
+        self.status_var.set(f"🎴 Carta promo '{name}' aggiunta!")
+    
+    def update_promo_list(self):
+        """Aggiorna lista carte promo"""
+        self.promo_listbox.delete(0, tk.END)
+        for promo in self.promo_cards:
+            self.promo_listbox.insert(tk.END, f"🎴 {promo['name']} ({promo['code']})")
+    
+    def remove_promo_card(self):
+        """Rimuovi carta promo"""
+        selection = self.promo_listbox.curselection()
+        if selection:
+            index = selection[0]
+            removed = self.promo_cards.pop(index)
+            self.update_promo_list()
+            self.status_var.set(f"❌ Carta '{removed['name']}' rimossa")
+    
+    def edit_promo_card(self):
+        """Modifica carta promo"""
+        selection = self.promo_listbox.curselection()
+        if not selection:
+            messagebox.showwarning("Attenzione", "Seleziona una carta da modificare!")
+            return
+        
+        messagebox.showinfo("Info", "Funzione di modifica in sviluppo!")
+    
+    # ================ EXPORT METHODS ================
+    
+    def generate_final_json(self):
+        """Genera JSON finale"""
+        # Combina tutte le news
+        all_news = self.featured_news + self.additional_news
+        
+        content = {
+            "news": all_news,
+            "promoCards": self.promo_cards,
+            "lastUpdated": f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Generato manualmente 📱",
+            "featuredNews": 4,  # Sempre 4 news in evidenza
+            "additionalNews": len(self.additional_news),
+            "totalPromoCards": len(self.promo_cards),
+            "generator": "KakunaDx Manual Generator v1.0"
+        }
+        
+        json_str = json.dumps(content, ensure_ascii=False, indent=2)
+        
+        self.json_preview.delete('1.0', tk.END)
+        self.json_preview.insert('1.0', json_str)
+        
+        # Aggiorna statistiche
+        total_news = len(all_news)
+        total_promos = len(self.promo_cards)
+        self.stats_label.config(text=f"📊 Statistiche: {total_news} news totali (4 in evidenza + {len(self.additional_news)} aggiuntive), {total_promos} carte promo")
+        
+        self.status_var.set(f"📄 JSON generato: {total_news} news, {total_promos} promo")
+    
+    def save_json_file(self):
+        """Salva file JSON"""
+        if not self.json_preview.get('1.0', tk.END).strip():
+            messagebox.showwarning("Attenzione", "Genera prima il JSON!")
+            return
+        
+        filename = filedialog.asksaveasfilename(
+            defaultextension=".json",
+            filetypes=[("JSON files", "*.json"), ("All files", "*.*")],
+            title="Salva content.json",
+            initialname="content.json"
+        )
+        
+        if filename:
+            content = self.json_preview.get('1.0', tk.END)
+            
+            try:
+                with open(filename, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                messagebox.showinfo("Successo", f"Content.json salvato in:\n{filename}")
+                self.status_var.set(f"💾 File salvato: {os.path.basename(filename)}")
+            except Exception as e:
+                messagebox.showerror("Errore", f"Errore nel salvare:\n{e}")
+    
+    def copy_to_clipboard(self):
+        """Copia JSON negli appunti"""
+        if not self.json_preview.get('1.0', tk.END).strip():
+            messagebox.showwarning("Attenzione", "Genera prima il JSON!")
+            return
+        
+        content = self.json_preview.get('1.0', tk.END)
+        
+        self.root.clipboard_clear()
+        self.root.clipboard_append(content)
+        
+        messagebox.showinfo("📱 Content Manuale Copiato!", 
+                           "Content.json manuale copiato negli appunti!\nPronto per GitHub!")
+        self.status_var.set("📋 JSON copiato negli appunti per GitHub!")
+    
+    def open_github(self):
+        """Apri GitHub"""
+        url = "https://github.com/jackjack04/kakunadx-data/edit/main/content.json"
+        webbrowser.open(url)
+        self.status_var.set("🌐 GitHub aperto nel browser")
+    
+    def run(self):
+        """Avvia applicazione"""
+        # Genera JSON iniziale
+        self.generate_final_json()
+        self.root.mainloop()
+
+if __name__ == "__main__":
+    app = KakunaDxManualGenerator()
+    app.run()
