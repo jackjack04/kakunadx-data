@@ -143,60 +143,38 @@
   ],
   "promoCards": [
     {
-      "id": "victini_svp_288_reprint",
-      "name": "Victini SV-P 288",
-      "code": "288/SV-P",
+      "id": "tohoku-pikachu-svp-260-2025",
+      "name": "Tohoku's Pikachu",
+      "code": "260/SV-P",
       "series": "SV-P Promotional Cards",
-      "releaseDate": "2025-08-31",
-      "rarity": "Promo BWR Style",
-      "imageUrl": "victiniSVP288",
-      "description": "La leggendaria carta Victini dal BWR Tournament. Design rosso iconico con holofoil speciale che continua a conquistare collezionisti. Ristampa limitata per l'estate 2025!",
-      "availability": "tournament"
-    },
-    {
-      "id": "charizard_battle_roads_spring_2025",
-      "name": "Charizard Battle Roads Spring",
-      "code": "BR25-006",
-      "series": "Battle Roads 2025",
-      "releaseDate": "2025-03-15",
-      "rarity": "Tournament Prize",
-      "imageUrl": "charizard-battle-roads-2025",
-      "description": "Carta premio per i vincitori dei Battle Roads Spring 2025. Charizard con artwork dinamico e foil olografico speciale. Uno dei premi più ambiti della stagione tornei!",
-      "availability": "tournament"
-    },
-    {
-      "id": "pikachu_pokemon_day_2025_gold",
-      "name": "Pikachu Pokémon Day 2025",
-      "code": "PROMO-025G",
-      "series": "Anniversary Collection 2025",
-      "releaseDate": "2025-02-27",
-      "rarity": "Anniversary Gold Promo",
-      "imageUrl": "pikachu-pokemon-day-2025-gold",
-      "description": "Carta promozionale esclusiva per il 29° anniversario di Pokémon. Design celebrativo con foil dorato speciale e artwork commemorativo. Disponibile solo il Pokémon Day nei Pokémon Center certificati.",
+      "releaseDate": "2025-08-15",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "tohokuPikachu",
+      "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
       "availability": "store"
     },
     {
-      "id": "celebi_time_travel_special",
-      "name": "Celebi Time Travel",
-      "code": "TT-251",
-      "series": "Temporal Forces Preview",
-      "releaseDate": "2025-02-14",
-      "rarity": "Preview Promo",
-      "imageUrl": "celebi-time-travel",
-      "description": "Anteprima esclusiva del set Temporal Forces! Celebi con nuova meccanica temporale e artwork che cambia angolazione. Distribuita durante eventi speciali di San Valentino nei negozi partner.",
+      "id": "hiroshima-pikachu-svp-261-2025",
+      "name": "Hiroshima's Pikachu",
+      "code": "261/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-09-01",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "hiroshimaPikachu",
+      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
       "availability": "store"
     },
     {
-      "id": "mew_mythical_island_crossover",
-      "name": "Mew Mythical Island",
-      "code": "MI-151",
-      "series": "TCG Pocket Crossover",
-      "releaseDate": "2025-01-31",
-      "rarity": "Digital-Physical Promo",
-      "imageUrl": "mew-mythical-island",
-      "description": "Prima carta crossover tra TCG fisico e Pokémon TCG Pocket! Ottieni questa Mew speciale collegando l'app al tuo account. Design unico con effetti olografici arcobaleno impossibili da riprodurre altrimenti.",
-      "availability": "online"
+      "id": "fukuoka-pikachu-svp-289-2025",
+      "name": "Fukuoka's Pikachu",
+      "code": "289/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-15",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "fukuokaPikachu",
+      "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
+      "availability": "store"
     }
   ],
-  "lastUpdated": "2025-07-26 06:38:15 - 🤖 Selenium: 0 news, 0 promo"
+  "lastUpdated": "2025-07-26 15:30:00 - 🎌 Regional Pikachu Collection"
 }
