@@ -154,15 +154,15 @@
       "availability": "tournament"
     },
     {
-      "id": "charizard_battle_roads_spring_2025",
-      "name": "Charizard Battle Roads Spring",
-      "code": "BR25-006",
-      "series": "Battle Roads 2025",
-      "releaseDate": "2025-03-15",
-      "rarity": "Tournament Prize",
-      "imageUrl": "charizard-battle-roads-2025",
-      "description": "Carta premio per i vincitori dei Battle Roads Spring 2025. Charizard con artwork dinamico e foil olografico speciale. Uno dei premi più ambiti della stagione tornei!",
-      "availability": "tournament"
+      "id": "fukuoka-pikachu-svp-289-2025",
+      "name": "Fukuoka's Pikachu",
+      "code": "289/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-08-15",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "fukuokaPikachu",
+      "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
+      "availability": "store"
     },
     {
       "id": "pikachu_pokemon_day_2025_gold",
