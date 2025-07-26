@@ -176,14 +176,14 @@
       "availability": "store"
     },
     {
-      "id": "celebi_time_travel_special",
-      "name": "Celebi Time Travel",
-      "code": "TT-251",
-      "series": "Temporal Forces Preview",
-      "releaseDate": "2025-02-14",
-      "rarity": "Preview Promo",
-      "imageUrl": "celebi-time-travel",
-      "description": "Anteprima esclusiva del set Temporal Forces! Celebi con nuova meccanica temporale e artwork che cambia angolazione. Distribuita durante eventi speciali di San Valentino nei negozi partner.",
+      "id": "hiroshima-pikachu-svp-261-2025",
+      "name": "Hiroshima's Pikachu",
+      "code": "261/SV-P",
+      "series": "SV-P Promotional Cards",
+      "releaseDate": "2025-09-01",
+      "rarity": "Mirror Holofoil Promo",
+      "imageUrl": "hiroshimaPikachu",
+      "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
       "availability": "store"
     },
     {
