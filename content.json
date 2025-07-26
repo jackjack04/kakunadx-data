@@ -6,7 +6,7 @@
       "subtitle": "Nuove espansioni MEGA in arrivo ad agosto",
       "content": "**Pacchetto di espansione MEGA del gioco di carte Pokémon \"Mega Brave\"**\nPrezzo consigliato: 180 yen (tasse incluse). Contenuto: 5 carte. *Le carte sono incluse casualmente. Data di uscita: venerdì 1 agosto 2025.\n\n**Pacchetto di espansione MEGA del gioco di carte Pokémon \"Mega Symphonia\"**\nPrezzo consigliato: 180 yen (tasse incluse). Contenuto: 5 carte. *Le carte sono incluse casualmente. Data di uscita: venerdì 1 agosto 2025.\n\n**Scatola Allenatore Premium del Gioco di Carte Pokémon MEGA**\nPrezzo al dettaglio consigliato: 6.350 yen (tasse incluse)\n\n**Contenuto:**\n• Pacchetto di espansione \"Mega Brave\" ... 10 pacchetti\n• Pacchetto di espansione \"Mega Symphonia\" ... 10 pacchetti\n• Carte: 172 (51 tipi in totale) 13 Pokémon, 59 Allenatori, 4 Energie Speciali, 96 Energie Base\n• Scatola di carte: 1\n• Moneta Pokémon: 1\n• Segnalini danno in acrilico...1 set (100 segnalini danno: 6 pezzi / 50 segnalini danno: 8 pezzi / 10 segnalini danno: 20 pezzi)\n• Contatore danni: 1\n• Marcatore Premium (veleno/brucia)...1 di ciascuno\n\n*Il pacchetto di espansione contiene 5 carte casuali. *Questo prodotto include anche alcune ristampe di carte della serie \"Pokémon Card Game Scarlet & Violet\". Data di uscita: venerdì 1 agosto 2025",
       "publishDate": "2025-07-26",
-      "category": "set_release",
+      "category": "nuova espansione",
       "imageUrl": "BannerSet",
       "isHighlighted": true
     },
@@ -36,7 +36,7 @@
       "subtitle": "Torneo su larga scala con Single e Trio Battle",
       "content": "**\"Scramble Battle\" si terrà a Tokyo!**\n\n**Organizzeremo anche una \"Trio Battle\" con squadre composte da tre persone!**\n\nL'evento di lotta su larga scala \"Pokémon Card Game Scramble Battle\" si terrà a Tokyo per due giorni, sabato 30 e domenica 31 agosto 2025!\n\n\"Scramble Battle\" si svolgerà in un formato \"svizzero in tempo reale\", dove i partecipanti potranno confrontarsi istantaneamente con gli avversari usando i loro smartphone.\n\nQuesta volta, il primo giorno sarà una \"Single Battle\" in cui i partecipanti si sfideranno da soli, mentre il secondo giorno sarà una \"Trio Battle\" in cui si sfideranno squadre di tre persone.\n\nPer i dettagli, consulta le modalità di iscrizione qui sotto. Partecipa con i tuoi amici e familiari e divertiti giocando al Gioco di Carte Pokémon in \"Scramble Battle\"!\n\n**Date:** 30-31 Agosto 2025\n**Luogo:** Tokyo - Ariake GYM-EX\n\n*Questo evento richiede la prenotazione anticipata. Solo coloro che saranno stati selezionati in anticipo potranno accedere alla sede per la vendita di merchandising, ecc.\n\n*Questo evento richiede un account LINE e uno smartphone. Si prega di notare che non è possibile partecipare da un tablet.",
       "publishDate": "2025-07-26",
-      "category": "tournament",
+      "category": "Torneo",
       "imageUrl": "scramble_battle_tokyo",
       "isHighlighted": true
     },
@@ -57,7 +57,7 @@
       "content": "Come giocare e le regole del torneo",
       "imageUrl": null,
       "publishDate": "2025-07-26",
-      "category": "tournament",
+      "category": "Torneo",
       "isHighlighted": false
     },
     {
@@ -67,7 +67,7 @@
       "content": "Top evento",
       "imageUrl": null,
       "publishDate": "2025-07-26",
-      "category": "tournament",
+      "category": "Torneo",
       "isHighlighted": false
     },
     {
@@ -77,7 +77,7 @@
       "content": "Informazioni sul prodotto",
       "imageUrl": null,
       "publishDate": "2025-07-26",
-      "category": "set_release",
+      "category": "nuova espansione",
       "isHighlighted": false
     },
     {
@@ -87,7 +87,7 @@
       "content": "Come giocare e le regole del torneo",
       "imageUrl": null,
       "publishDate": "2025-07-26",
-      "category": "tournament",
+      "category": "Torneo",
       "isHighlighted": false
     }
   ],
@@ -101,7 +101,7 @@
       "rarity": "Mirror Holofoil Promo",
       "imageUrl": "hiroshimaPikachu",
       "description": "Esclusiva del Pokémon Center Hiroshima rinnovato. Pikachu cavalca un Red Gyarados, simboli iconici del center. Artwork spettacolare di REOspikee con effetti holofoil unici.",
-      "availability": "store"
+      "availability": "Lotteria"
     },
     {
       "id": "victini-svp-288-2025",
@@ -112,7 +112,7 @@
       "rarity": "Promo BWR Style",
       "imageUrl": "victiniSVP288",
       "description": "La leggendaria carta Victini dal BWR Tournament. Design rosso iconico con holofoil speciale che continua a conquistare collezionisti. Oltre 17,000 copie distribuite attraverso tornei e lotterie speciali!",
-      "availability": "tournament"
+      "availability": "torneo"
     },
     {
       "id": "fukuoka-pikachu-svp-289-2025",
@@ -123,7 +123,7 @@
       "rarity": "Mirror Holofoil Promo",
       "imageUrl": "fukuokaPikachu",
       "description": "Celebra il Pokémon Center Fukuoka e la famosa scena culinaria della città. Pikachu in un mondo di sapori giapponesi tradizionali. Artwork dettagliato di Nelnal che cattura l'essenza gastronomica di Fukuoka.",
-      "availability": "store"
+      "availability": "Lotteria"
     },
     {
       "id": "tohoku-pikachu-svp-260-2025",
@@ -134,7 +134,7 @@
       "rarity": "Mirror Holofoil Promo",
       "imageUrl": "tohokuPikachu",
       "description": "Carta promozionale per commemorare la riapertura del Pokémon Center Tohoku. Pikachu festeggia con i tradizionali festival Hanagasa della regione. Mirror holofoil con artwork esclusivo di Kouki Saitou.",
-      "availability": "store"
+      "availability": "Lotteria"
     },
     {
       "id": "roxanne-svp-290-2025",
@@ -145,7 +145,7 @@
       "rarity": "Extra Battle Day Promo",
       "imageUrl": "roxanneSVP290",
       "description": "Supporter card con design retro Sword & Shield! Premio di partecipazione agli Extra Battle Day dal luglio 2025. Sostituisce Irida con artwork alternativo vintage. Include pack bonus con 12 carte rare aggiuntive.",
-      "availability": "tournament"
+      "availability": "Torneo"
     }
   ],
   "lastUpdated": "2025-07-26 14:59:38 - 🤖 Selenium: 0 news, 0 promo"
